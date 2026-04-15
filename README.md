@@ -60,3 +60,11 @@ EMAIL_RECEIVING_USER = 'youremail@gmail.com'
 Any suggestion and feedback is welcome. You can message me on facebook
 - [Contact on Facebook](https://fb.com/sumit.luv)
 - [Subscribe my Channel LazyCoder On Youtube](https://youtube.com/lazycoders)
+
+
+## Acknowledgement
+
+This project is based on an open-source project from:
+[https://github.com/username/repository-asli](https://github.com/sumitkumar1503/librarymanagement)
+
+I have extended the project by adding CRUD functionality and modifying several parts to fit the assignment requirements.
