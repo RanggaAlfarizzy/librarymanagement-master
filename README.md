@@ -65,6 +65,6 @@ Any suggestion and feedback is welcome. You can message me on facebook
 ## Acknowledgement
 
 This project is based on an open-source project from:
-[https://github.com/username/repository-asli](https://github.com/sumitkumar1503/librarymanagement)
+[https://github.com/sumitkumar1503/Librarymanagement](https://github.com/sumitkumar1503/librarymanagement)
 
 I have extended the project by adding CRUD functionality and modifying several parts to fit the assignment requirements.
