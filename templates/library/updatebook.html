@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Update Book</title>
+</head>
+
+<body>
+
+{% include "library/navbaradmin.html" %}
+
+<br><br>
+
+<h3 style="text-align:center;">Update Book</h3>
+
+<div style="width:50%; margin:auto;">
+
+<form method="post">
+{% csrf_token %}
+
+<label>Book Name</label>
+<input type="text" name="name" value="{{book.name}}">
+
+<br><br>
+
+<label>Author</label>
+<input type="text" name="author" value="{{book.author}}">
+
+<br><br>
+
+<label>ISBN</label>
+<input type="text" name="isbn" value="{{book.isbn}}">
+
+<br><br>
+
+<label>Category</label>
+<input type="text" name="category" value="{{book.category}}">
+
+<br><br>
+
+<button type="submit">Update Book</button>
+
+</form>
+
+</div>
+
+{% include "library/footer.html" %}
+
+</body>
+</html>
